@@ -1,0 +1,16 @@
+{
+  "name": "jdu-restaurant-reviews-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter @jdu-restaurant/backend --filter @jdu-restaurant/frontend --parallel dev",
+    "build": "pnpm --filter @jdu-restaurant/backend build && pnpm --filter @jdu-restaurant/frontend build",
+    "start": "pnpm --filter @jdu-restaurant/backend start",
+    "frontend:dev": "pnpm --filter @jdu-restaurant/frontend dev",
+    "frontend:build": "pnpm --filter @jdu-restaurant/frontend build",
+    "frontend:preview": "pnpm --filter @jdu-restaurant/frontend preview"
+  }
+}
