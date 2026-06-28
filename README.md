@@ -99,3 +99,4 @@ You can log in using the following seed users:
 * **Admin Account**: Email: `admin@jdu.uz` (or Username: `admin`) | Password: `admin123`
 * **Standard User**: Email: `javlon@jdu.uz` (or Username: `javlon`) | Password: `user123`
 #Mikka-restoran-map
+# Mikka-restoran-map
