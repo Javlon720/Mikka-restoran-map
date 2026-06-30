@@ -1,0 +1,4 @@
+■ 飲食店口コミサイト『Mikka（ミッカ）』GitHubリポジトリURL
+https://github.com/Javlon720/Mikka-restoran-map
+
+※このリポジトリには、最新のソースコードおよびdocsフォルダ内のすべての設計書・成果報告書・プレゼンテーション資料（Mikka_Presentation.pptx）が含まれています。
