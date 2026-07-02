@@ -1,9 +1,9 @@
 /* JDU RestoReviews Stylesheet - Premium Light Mode */
 
 :root {
-  --primary: #881337;         /* Burgundy */
-  --primary-hover: #9f1239;   /* Burgundy Hover */
-  --primary-glow: rgba(136, 19, 55, 0.15);
+  --primary: #1e3a8a;         /* Navy Blue */
+  --primary-hover: #1d4ed8;   /* Blue Hover */
+  --primary-glow: rgba(30, 58, 138, 0.15);
   --success: #10b981;         /* Emerald 500 */
   --success-hover: #059669;   /* Emerald 600 */
   --success-glow: rgba(16, 185, 129, 0.15);
@@ -68,7 +68,7 @@ a:hover {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(135deg, rgba(136, 19, 55, 0.95) 0%, rgba(190, 18, 60, 0.95) 100%);
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.95) 0%, rgba(29, 78, 216, 0.95) 100%);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
@@ -108,9 +108,9 @@ a:hover {
   background: none;
   -webkit-background-clip: initial;
   -webkit-text-fill-color: initial;
-  color: #fb7185;
+  color: #38bdf8;
   font-weight: 900;
-  text-shadow: 0 0 8px rgba(251, 113, 133, 0.6);
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
 }
 
 .nav-search {
@@ -195,14 +195,14 @@ a:hover {
 }
 
 .navbar .btn-primary {
-  background: linear-gradient(135deg, #fb7185, #f43f5e);
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
   color: #FFFFFF;
-  box-shadow: 0 4px 14px rgba(251, 113, 133, 0.3);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
 }
 .navbar .btn-primary:hover {
   transform: translateY(-1px);
-  background: linear-gradient(135deg, #fecdd3, #fb7185);
-  box-shadow: 0 6px 20px rgba(251, 113, 133, 0.45);
+  background: linear-gradient(135deg, #7dd3fc, #38bdf8);
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.45);
 }
 
 .navbar .user-greeting {
@@ -221,9 +221,9 @@ a:hover {
   font-weight: 700;
 }
 .navbar .badge-admin {
-  background: rgba(251, 113, 133, 0.2);
-  border: 1px solid #fb7185;
-  color: #fb7185;
+  background: rgba(56, 189, 248, 0.2);
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
 }
 .lang-dropdown {
   display: none;
@@ -898,22 +898,22 @@ textarea.form-input {
 
 /* Mikka Chatbot Widget */
 .chatbot-widget {
-  --hb-primary: #881337;
-  --hb-primary-hover: #9f1239;
-  --hb-primary-rgb: 136, 19, 55;
-  --hb-secondary: #fb7185;
-  --hb-secondary-hover: #f43f5e;
-  --hb-tiffany: #fb7185;
-  --gold-start: #fb7185;
-  --gold-end: #f43f5e;
-  --tint-light-green: #be123c;
-  --tint-dark-green: #4c0519;
+  --hb-primary: #1e3a8a;
+  --hb-primary-hover: #1d4ed8;
+  --hb-primary-rgb: 30, 58, 138;
+  --hb-secondary: #38bdf8;
+  --hb-secondary-hover: #0ea5e9;
+  --hb-tiffany: #38bdf8;
+  --gold-start: #38bdf8;
+  --gold-end: #0ea5e9;
+  --tint-light-green: #2563eb;
+  --tint-dark-green: #172554;
   --text-dark: #0f172a;
   --bg-page: #FFFFFF;
   --bg-card: #FFFFFF;
   --bg-neutral-light: #FFFFFF;
-  --border-luxury: rgba(136, 19, 55, 0.08);
-  --border-gold: rgba(251, 113, 133, 0.35);
+  --border-luxury: rgba(30, 58, 138, 0.08);
+  --border-gold: rgba(56, 189, 248, 0.35);
   --font-sans: 'Inter', sans-serif;
 
   position: fixed;
